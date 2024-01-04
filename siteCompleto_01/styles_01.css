@@ -124,13 +124,6 @@ p.txt-itemList {
   transition: transform 0.3s ease-in-out;
 }
 
-.bg__cor {
-  background: -webkit-linear-gradient(
-    bottom,
-    rgb(173, 200, 200),
-    rgb(15, 15, 90)
-  );
-}
 
 .fweight {
   font-family: "roboto", sans-serif;
