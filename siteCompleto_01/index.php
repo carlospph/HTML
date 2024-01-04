@@ -286,18 +286,18 @@
             <div class="row">
 
                 <div class="container_galery">
-                    <div class="box"> <img src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> </div>
-                    <div class="box"> <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> </div>
-                    <div class="box"> <img src="https://plus.unsplash.com/premium_photo-1683880731785-e5b632e0ea13?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGVzY3JpdCVDMyVCM3Jpb3xlbnwwfHwwfHx8MA%3D%3D">
+                    <div class="box"> <img src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem de computador desktop"> </div>
+                    <div class="box"> <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagem de computador PC game"> </div>
+                    <div class="box"> <img src="https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_1280.jpg" alt="Imagem de dispositivo tablet">
                     </div>
 
-                    <div class="box"> <img src="https://images.unsplash.com/photo-1590935217281-8f102120d683?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="box"> <img src="https://cdn.pixabay.com/photo/2018/05/01/13/04/miniature-3365503_1280.jpg" alt="Imagem de celular">
                     </div>
 
-                    <div class="box"> <img src="https://images.unsplash.com/photo-1523206489230-c012c64b2b48?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="box"> <img src="https://img.freepik.com/psd-gratuitas/mulher-verificar-dela-email-em-um-reuniao_53876-12031.jpg?w=996&t=st=1704334969~exp=1704335569~hmac=68b4d23014cb4eddd44b762d66fe2e560622db00bd1324aca07c8904aaaa693c" alt="Imagem de notebook">
                     </div>
 
-                    <div class="box"> <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"> </div>
+                    <div class="box"> <img src="https://cdn.pixabay.com/photo/2014/12/11/08/09/ball-563972_1280.jpg" alt="Imagem de conexões variadas"> </div>
 
 
 
