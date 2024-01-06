@@ -19,8 +19,10 @@ li {
 :root {
   --corAzul: #37517e;
   --branco: #f0f0f0;
-  --corLaranjado: #ee9e0a;
+  --cor-laranjada: #ffa009;
   --corFonteAzul: rgb(15, 15, 94);
+  --cor-cinza: silver;
+  --cor-vermelho-escuro: #c12e3b;
 }
 
 .bodyAll {
@@ -46,7 +48,7 @@ li {
 #btnCadastro {
   width: 110px;
   border-radius: 15px;
-  border: 2px solid silver;
+  border: 2px solid var(--cor-cinza);
   background-color: var(--corAzul);
   color: white;
   padding: 0 0.3rem;
@@ -74,14 +76,14 @@ h4.titulo {
   border-radius: 20px;
   padding: 0.3rem 0rem;
   width: 110px;
-  background: #ffa009;
+  background: var(--cor-laranjada);
 }
 
 .btn_mais_inform {
   width: 200px;
   border-radius: 15px;
   border: 0;
-  background: #c5fa50;
+  background: var(--cor-laranjada);
 }
 
 #patrocinios,
@@ -92,6 +94,10 @@ h4.titulo {
 .patricionador {
   font-size: 20px;
   font-weight: 900;
+}
+/**alterando a cor do SVG pela add class .svg e propriedade fill: cor **/
+.svg{
+  fill: var(--corFonteAzul);
 }
 
 p.txtAbout {
@@ -106,27 +112,92 @@ p.txt-itemList {
   padding: 0.5rem 0rem;
 }
 
+/** NEWSLETTER**/
 .newsletter {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9));
   color: white;
+  height: 50vh;
 }
 
 .txtNewsletter {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 100;
-  text-align: center;
 }
 
-.inputEmail {
-  min-width: 300px;
+/**Início da configuração do form newsletter**/
+        .container-input {
+            margin: auto;
+            display: flex;
+             align-items: center;
+         }
+         /* .newsletter */
+         input[type=email] {
+            outline: none;
+            width: 240px;
+            border-radius: 5px 0 0 5px;
+            padding: 5px;
+        }
+
+        /* Quando a tela for maior do que 600px */
+        @media(min-width: 600px) {
+            input[type=email] {
+                width: 400px;
+            }
+        }
+
+        /* Quando a tela for no maior do que 800px */
+        @media(min-width:800px) {
+            input[type=email] {
+                width: 600px;
+            }
+        }
+        /**fim da configuração do input newsletter**/
+.container-input{
+  display: flex;
+  justify-content: start;
 }
 
- 
-
-.bordaTeste {
-  border: 1px solid red;
+/**Início da configuração do form newsletter**/
+.container-input {
+  margin: auto;
+  display: flex;
+   align-items: center;
 }
+
+/* .newsletter */
+input[type=email] {
+  outline: none;
+  width: 240px;
+  border: 1px solid rgb(209, 196, 196);
+  border-radius: 5px 0 0 5px;
+  padding: 5px;
+}
+
+/**botão - input newsletter**/
+button {
+  border-radius: 0;
+  cursor: pointer;
+  border: 2px solid var(--cor-vermelho-escuro);
+  background-color: var(--cor-vermelho-escuro);
+  padding: 5px;
+  color: white;
+}
+
+/* Quando a tela for maior do que 600px */
+@media(min-width: 600px) {
+  input[type=email] {
+      width: 400px;
+   }
+}
+
+/* Quando a tela for no maior do que 800px */
+@media(min-width:800px) {
+  input[type=email] {
+      width: 600px;
+   }
+}
+/**fim da configuração do input newsletter**/
 
 /**** efeitor hover cards ***/
 .hover-effect {

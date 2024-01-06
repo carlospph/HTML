@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de testes e componentes</title>
+    <style>
+        /**Início da configuração do form newsletter**/
+        .container-input {
+            margin: auto;
+            display: flex;
+             align-items: center;
+         }
+
+         input[type=email] {
+            outline: none;
+            width: 240px;
+            border: 2px solid rgb(37, 32, 32);
+            border-radius: 5px 0 0 5px;
+            padding: 5px;
+        }
+
+        /**botão - input newsletter**/
+        button {
+            border-radius: 0;
+            cursor: pointer;
+            border: 2px solid black;
+            background-color: black;
+            padding: 5px;
+            color: white;
+        }
+
+        /* Quando a tela for maior do que 600px */
+        @media(min-width: 600px) {
+            input[type=email] {
+                width: 400px;
+                background: rgb(233, 233, 98);
+            }
+        }
+
+        /* Quando a tela for no maior do que 800px */
+        @media(min-width:800px) {
+            input[type=email] {
+                width: 600px;
+                background: darkred;
+            }
+        }
+        /**fim da configuração do input newsletter**/
+    </style>
+</head>
+
+<body>
+    <p id="size__screen"></p>
+
+    /**Inicio do campo newsletter**/
+    <div class="container-input">
+        <div class="inputEmail">
+            <input type="email" name="" id="" placeholder="E-mail para receber notícias">
+        </div>
+        <button>Cadastrar</button>
+    </div>
+    /** fim do campo newsletter**/
+
+
+    <script>
+        function atualizar() {
+            document.querySelector("#size__screen").innerHTML = "Tamanho da minha tela: " + innerWidth + "px";
+        }
+        atualizar();
+        setInterval(atualizar, 1000);
+    </script>
+</body>
+
+</html>
