@@ -1,1 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700;900&display=swap">
+    <link rel="stylesheet" href="styles_01.css">
+    <link rel="stylesheet" href="styles__sectionCards.css">
+
+    <!-- Adicionar icones do material google -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!---Adicionar icones awesome---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--- font google roboto --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+
+    <!--- font inconsolata google --->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400&display=swap">
+
+    <!--- Icone boxicon---->
+    <!---Icone do boxicons--->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Carlos::Binário</title>
+</head>
+
+<body class="bodyAll">
+    <header class="bgHeader">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">AC705</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Formação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btnLogin" id="btnLogin">Login</button>
+                                <button class="btnCadastro" id="btnCadastro">Cadastro</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="apresentacion" class="bgPadrao">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 pt-5 pb-5">
+                    <h2 class="titulo pb-3">Soluções para sua empresa</h2>
+                    <h4 class="titulo pb-3">
+                        Criando interfaces visuais em sites, tornando a experiência do usuário atraente e funcional.
+                    </h4>
+                    <button class="btn_introducao">Introdução</button>
+                    <button class="btn_mais">Mais e+</button>
+                </div>
+                <div class="col col-sm-12 col-md-6 pt-0 movimentarImagem">
+                    <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png"
+                        alt="Imagem principal" class="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="patrocinios" class="p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col patricionador">
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='48' height='48' class="svg">
+                        <path
+                            d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z">
+                        </path>
+                    </svg>
+                </div>
+
+                <div class="col patricionador"> <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                        fill='#000000' width='48' height='48' class="svg">
+                        <path
+                            d="M20 2H8c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V4c0-1.103-.897-2-2-2zM8 16V4h12l.002 12H8z">
+                        </path>
+                        <path d="M4 8H2v12c0 1.103.897 2 2 2h12v-2H4V8z"></path>
+                        <path d="m12 12-1-1-2 3h10l-4-6z"></path>
+                    </svg>
+                </div>
+
+                <div class="col patricionador">
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='48' height='48' class="svg">
+                        <path
+                            d="M18.002 2.997H5.999A3.011 3.011 0 0 0 2.997 6v12.002a3.012 3.012 0 0 0 3.002 3.001h12.003a3.012 3.012 0 0 0 3.001-3.001V6a3.012 3.012 0 0 0-3.001-3.003zm-1.64 12.647c-.152.36-.389.68-.693.927a3.594 3.594 0 0 1-1.206.614c-.49.151-1.074.229-1.75.229H7.888V6.909h5.103c.943 0 1.7.213 2.267.646.569.436.854 1.082.854 1.958 0 .528-.13.983-.389 1.357-.259.373-.63.664-1.111.868v.034c.642.135 1.137.438 1.464.912.327.473.493 1.069.493 1.789 0 .405-.078.788-.225 1.147l.02.021v.003zm-2.084-2.589c-.309-.282-.739-.419-1.297-.419H9.737v3.276h3.253c.554 0 .991-.144 1.298-.435.308-.289.464-.701.464-1.229-.005-.518-.156-.919-.464-1.193h-.014.004zm-.451-2.119c.299-.251.444-.613.444-1.084 0-.526-.131-.902-.397-1.116-.264-.214-.646-.326-1.146-.326H9.727v2.898h3.001c.436.001.81-.127 1.099-.372z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="col patricionador">
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='48' height='48' class="svg">
+                        <path
+                            d="M21.838 8.445c0-.001-.001-.001 0 0l-.003-.004-.001-.001v-.001a.809.809 0 0 0-.235-.228l-9.164-6.08a.834.834 0 0 0-.898 0L2.371 8.214A.786.786 0 0 0 2 8.897v6.16a.789.789 0 0 0 .131.448v.001l.002.002.01.015v.002h.001l.001.001.001.001c.063.088.14.16.226.215l9.165 6.082a.787.787 0 0 0 .448.139.784.784 0 0 0 .45-.139l9.165-6.082a.794.794 0 0 0 .371-.685v-6.16a.793.793 0 0 0-.133-.452zm-9.057-4.172 6.953 4.613-3.183 2.112-3.771-2.536V4.273zm-1.592 0v4.189l-3.771 2.536-3.181-2.111 6.952-4.614zm-7.595 6.098 2.395 1.59-2.395 1.611v-3.201zm7.595 9.311-6.96-4.617 3.195-2.15 3.765 2.498v4.269zm.795-5.653-3.128-2.078 3.128-2.105 3.131 2.105-3.131 2.078zm.797 5.653v-4.27l3.766-2.498 3.193 2.15-6.959 4.618zm7.597-6.11-2.396-1.611 2.396-1.59v3.201z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="col patricionador">
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='48' height='48' class="svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="col patricionador">
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#000000' width='48' height='48' class="svg">
+                        <path d="M2 7v1l11 4 9-4V7L11 4z"></path>
+                        <path
+                            d="M4 11v4.267c0 1.621 4.001 3.893 9 3.734 4-.126 6.586-1.972 7-3.467.024-.089.037-.178.037-.268V11L13 14l-5-1.667v3.213l-1-.364V12l-3-1z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titulo pt-5 pb-4 text-center">Sobre nós</h2>
+                    <span class="tracinho"></span>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <p class="txtAbout">
+                        Pofissional em desenvolvimento web, com habilidades tanto no front-end para back-end, e utiliza
+                        uma variedade de tecnologias populares para criar aplicações web modernas e eficientes.
+                    </p>
+                    <p class="txt-itemList"><i class="fa-solid fa-check-double"></i>Programação estática </p>
+                    <p class="txt-itemList"><i class="fa-solid fa-check-double"></i> Programação dinâmica</p>
+                    <p class="txt-itemList"><i class="fa-solid fa-check-double"></i> Programação web e mobile </p>
+                </div>
+                <div class="col col-sm-12 col-md-6">
+                    <p class="txtAbout">
+                        HTML5 e CSS3: Desenvolve interfaces modernas e estilizadas, utilizando as últimas
+                        especificações.
+                        JavaScript (ES6+): Utiliza JavaScript para criar interatividade e dinamismo nas aplicações.
+                        Bootstrap: Aproveita o poder do Bootstrap para criar layouts responsivos e componentes
+                        consistentes.
+                    </p>
+                    <button class="btn_mais_inform mt-5">Mais informações </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="utilitarios pt-5 pb-5 bg-danger">
+        <div class="container">
+
+            <div class="row py-5">
+                <div class="col-12">
+                    <h2 class="titulo text-white text-center">Formação web</h2>
+                </div>
+                <div class="col-12 pt-2 text-center">
+                    <h4 class="text-white fweight"> Sequências de cursos e conteúdos para minha imersão tecnológica e
+                        desafios da carreira</h4>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h4 class="text-white pt-5 fweight"> <i class="fa-solid fa-quote-left"></i> Básico ao avançado</h4>
+                    <p class="text-white fweight text-justify">
+                        Desde o uso do softwares e sistemas operacionais, segurança, internet, dados, computadores, a
+                        criação de algoritmos.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h4 class="text-white pt-5 fweight"><i class="fa-solid fa-quote-left icon-formation"></i>Autodidata
+                        em formação</h4>
+                    <p class="text-white fweight text-justify">
+                        Especialista na arte de aprender, na gestão de tempo, busca de perfeição e desenvolvimento
+                        profissional contínuo.
+                    </p>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h4 class="text-white pt-5 fweight"><i class="fa-solid fa-quote-left"></i>Carreira CN</h4>
+                    <p class="text-white fweight text-justify">
+                        Jornada profissional dedicada à área administrativa e tecnológica com experiência no setor
+                        público e privado. </p>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!---cards serviços -->
+    <section id="services">
+        <div class="row">
+            <div class="container">
+                <div class="col-12">
+                    <h2 class="titulo text-darck text-center pt-5">Serviços web</h2>
+                </div>
+            </div>
+        </div>
+        <!---coluna 01 - cards - imagem 01-->
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/card_01.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>
+                                Front-end
+                            </h5>
+                            <p class="text__card">
+                                Linguagens de estruturação para o desenvolvimento front-end (páginas não dinâmicas)
+                                iniciais e caminhando para o back-end (páginas dinâmica)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--- coluna 02 - cards - imagem 02-->
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/card_02.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>Prototipagem</h5>
+                            <p class="text__card">
+                                Criação de modelos preliminares de um sistema para testar ideias, validar conceitos e
+                                facilitar o processo de design e desenvolvimento
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!---coluna 03 - cards - imagem 03 -->
+                <div class="col-12  col-md-6 col-lg-3 my-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/card_03.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5>
+                                Manutenção de código
+                            </h5>
+                            <p class="text__card">
+                                Processo de gerenciamento, atualização e aprimoramento do código-fonte responsável pela
+                                parte visual e interativa de um aplicativo web ou site
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- coluna 03 - card - imagem 04 -->
+                <div class="col-12  col-md-6 col-lg-3 my-3">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="images/card_04.png" alt="Card image cap">
+                        <div class="card-body">
+
+                            <h5> Desenvolvimento mobile </h5>
+                            <p class="text__card">
+                                Mobile web: criação de aplicativos ou sites otimizados para serem acessados através de
+                                dispositivos móveis, como smartphones e tablets, por meio de navegadores da web </p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="newsletter pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="titulo"> Newsletter
+                </div>
+                <div class="col-12 pb-5">
+                    <span class="txtNewsletter">
+                        Receba comunicação digital regular via e-mail, que contém informações, notícias, atualizações,
+                        ofertas sobre um determinado tópico, produto, serviço ou sobre nossa empresa.
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <form action="cadastrar.php">
+                    <div class="col">
+                        <!-- <div class="input-group">
+                            <input type="email" placeholder="E-mail para cadastro" class="inputEmail" id="inputEmail">
+                            <div class="input-group-append">
+                                <button class="btn btn-danger" type="submit" id="button-addon2">Cadastrar</button>
+                            </div>
+                        </div> -->
+                        <!-- Inicio do campo newsletter -->
+                        <div class="container-input">
+                            <div class="inputEmail">
+                                <input type="email" name="" id="" placeholder="E-mail para receber notícias">
+                            </div>
+                            <button>Cadastrar</button>
+                        </div>
+                        <!--- fim do campo newsletter --->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id=" " class="pt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center"> GALERY PH</h2>
+                    <h5 class="text_width text-center mx-auto py-3"> Confira a galeria de equipamentos disponíveis e que
+                        suportam tecnologia para programação WEB</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="d_flex justify-content-center flex-wrap">
+                        <p> <button id="btnAll" class="btn_photo"> Todas </button> </p>
+                        <p> <button id="btnComputer" class="btn_photo"> Computadores </button> </p>
+                        <p> <button id="btnMobile" class="btn_photo"> Celulares </button> </p>
+                        <p> <button id="btnNotebooks" class="btn_photo"> Notebooks </button> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="container_galery">
+                    <div class="box"> <img
+                            src="https://images.unsplash.com/photo-1614624532983-4ce03382d63d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Imagem de computador desktop"> </div>
+                    <div class="box"> <img
+                            src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Imagem de computador PC game"> </div>
+                    <div class="box"> <img src="https://cdn.pixabay.com/photo/2015/05/31/10/55/man-791049_1280.jpg"
+                            alt="Imagem de dispositivo tablet">
+                    </div>
+
+                    <div class="box">
+                        <img src="https://cdn.pixabay.com/photo/2018/05/01/13/04/miniature-3365503_1280.jpg"
+                            alt="Imagem de celular">
+                    </div>
+
+                    <div class="box">
+                        <img src="https://img.freepik.com/psd-gratuitas/mulher-verificar-dela-email-em-um-reuniao_53876-12031.jpg?w=996&t=st=1704334969~exp=1704335569~hmac=68b4d23014cb4eddd44b762d66fe2e560622db00bd1324aca07c8904aaaa693c"
+                            alt="Imagem de notebook">
+                    </div>
+
+                    <div class="box">
+                        <img src="https://cdn.pixabay.com/photo/2014/12/11/08/09/ball-563972_1280.jpg"
+                            alt="Imagem de conexões variadas">
+                    </div>
+
+                </div>
+    </section>
+
+    <!---footer--->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col">
+                    <ul>
+                        <li class="footer-title">Company</a>
+                        <li class="link__footer"><a href="">Sobre</a></li>
+                        <li class="link__footer"><a href="">Our services</a></li>
+                        <li class="link__footer"><a href="">Privacy policy</a></li>
+                        <li class="link__footer"><a href="">Affiate program</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul>
+                        <li class="footer-title">Get help</a></li>
+                        <li class="link__footer"><a href="">FAQ</a></li>
+                        <li class="link__footer"><a href="">Shipping</a></li>
+                        <li class="link__footer"><a href="">Returns</a></li>
+                        <li class="link__footer"><a href="">Opções de pagamento</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+
+                    <ul>
+                        <li class="footer-title">Compras online</a></li>
+                        <li class="link__footer"><a href="">Sites</a></li>
+                        <li class="link__footer"><a href="">Nosso blog</a></li>
+                        <li class="link__footer"><a href="">Patrocinios</a></li>
+                        <li class="link__footer"><a href="">Affiate program</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+
+                    <div>
+                        <ul>
+                            <li class="footer-title">Redes sociais</a></li>
+                        </ul>
+
+                        <ul class="container-link-redeSocial">
+                            <li> <a href=""> <i class='bx bxl-facebook'></i> </a> </li>
+                            <li> <a href=""> <i class='bx bxl-whatsapp'></i> </a> </li>
+                            <li> <a href=""> <i class='bx bxl-instagram'></i> </a> </li>
+                            <li> <a href=""> <i class='bx bxl-linkedin'></i> </a> </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="direitosAutorais">
+        <div class="container">Desenvolvido por Carlos Nascimento - 2024 - CSS Puro</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.querySelector('.size__screen').innerHTML = innerWidth + "px";
+    </script>
+</body>
+
+</html>
